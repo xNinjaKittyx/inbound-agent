@@ -1,6 +1,6 @@
 FROM jenkins/inbound-agent:latest-alpine-jdk11
 
 USER root
-RUN apk add --update --no-cache rsync
+RUN apk add --update --no-cache rsync curl
 
 USER jenkins
